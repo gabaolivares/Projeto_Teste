@@ -10,7 +10,7 @@ Serviço de processamento financeiro distribuído para operações de apostas, c
 ## Executar localmente
 
 ```powershell
-Copy-Item .env.example .env
+cp .env.example .env
 docker compose up -d
 bun install
 bun run start:dev
